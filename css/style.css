@@ -1,0 +1,620 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden !important;
+}
+
+.container {
+  width: 80%;
+  margin: 0px auto;
+  padding: 10px;
+}
+
+.titulo {
+  /* Classic Cheesecake Recipe */
+  position: absolute;
+  width: 600px;
+  height: 64px;
+  left: 190px;
+  top: 49px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 64px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.descripcion {
+  width: 900px;
+  height: 215px;
+}
+
+.descripcion p {
+  position: absolute;
+  width: 592px;
+  height: 51px;
+  left: 225px;
+  top: 125px;
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* Gray 2 */
+  color: #4F4F4F;
+}
+
+.descripcion img {
+  /* Frame 1 */
+  position: absolute;
+  width: 13px;
+  height: 8px;
+  left: 200px;
+  top: 131px;
+}
+
+.img_pastel {
+  display: block;
+  width: 100%;
+  height: 60%;
+  border-radius: 12px;
+  margin: 0px auto;
+  margin-top: -25px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.datos {
+  /* Rectangle 60 */
+  position: absolute;
+  width: 216px;
+  height: 330px;
+  left: 1496px;
+  top: 984px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.local {
+  /* Vector */
+  position: absolute;
+  left: 11%;
+  right: 8%;
+  top: 15%;
+  bottom: 8%;
+  /* Orange */
+  color: #F2994A;
+}
+
+.yields {
+  /* Yields */
+  position: absolute;
+  width: 38px;
+  height: 12px;
+  left: 52px;
+  top: 48px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+  /* Gray 4 */
+  color: #BDBDBD;
+}
+
+.servi {
+  /* 12 servings */
+  position: absolute;
+  width: 77px;
+  height: 17px;
+  left: 52px;
+  top: 58px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  /* Orange */
+  color: #F2994A;
+}
+
+.schedu {
+  /* Vector */
+  position: absolute;
+  left: 11%;
+  right: 8%;
+  top: 35%;
+  bottom: 8%;
+  /* Gray 2 */
+  color: #4F4F4F;
+}
+
+.prep {
+  /* Prep TIme */
+  position: absolute;
+  width: 58px;
+  height: 12px;
+  left: 52px;
+  top: 116px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+  /* Gray 4 */
+  color: #BDBDBD;
+}
+
+.minutes {
+  /* 45 minutes */
+  position: absolute;
+  width: 80px;
+  height: 17px;
+  left: 52px;
+  top: 125px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  /* Gray 1 */
+  color: #333333;
+}
+
+.schedutwo {
+  /* Vector */
+  position: absolute;
+  left: 11%;
+  right: 8%;
+  top: 58%;
+  bottom: 8%;
+  /* Gray 2 */
+  color: #4F4F4F;
+}
+
+.cook {
+  /* Cook Time */
+  position: absolute;
+  width: 61px;
+  height: 12px;
+  left: 52px;
+  top: 190px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+  /* Gray 4 */
+  color: #BDBDBD;
+}
+
+.hour {
+  /* 1 hour */
+  position: absolute;
+  width: 43px;
+  height: 17px;
+  left: 52px;
+  top: 200px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  /* Gray 1 */
+  color: #333333;
+}
+
+.scheduthree {
+  /* Vector */
+  position: absolute;
+  left: 11%;
+  right: 8%;
+  top: 82%;
+  bottom: 8%;
+  /* Gray 2 */
+  color: #4F4F4F;
+}
+
+.total {
+  /* Total Time */
+  position: absolute;
+  width: 63px;
+  height: 12px;
+  left: 52px;
+  top: 270px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+  /* Gray 4 */
+  color: #BDBDBD;
+}
+
+.time_total {
+  /* 7,75 hours */
+  position: absolute;
+  width: 72px;
+  height: 17px;
+  left: 52px;
+  top: 280px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  /* Gray 1 */
+  color: #333333;
+}
+
+.ingredients {
+  width: 39%;
+  margin-bottom: 20px;
+}
+
+.ingredients h2 {
+  /* Ingredients */
+  margin-bottom: 25px;
+  margin-top: 30px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height */
+  /* Gray 1 */
+  color: #333333;
+}
+
+.subtitulo {
+  /* Graham Cracker Crust */
+  display: block;
+  margin-bottom: 20px;
+  font-family: Playfair Display;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height */
+  /* Gray 1 */
+  color: #333333;
+}
+
+.ingredients input[type="checkbox"] {
+  /* Rectangle 33 */
+  display: inline;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 21px;
+  height: 21px;
+  /* Gray 3 */
+  border: 1px solid #828282;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.ingredients label {
+  margin-left: 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  /* or 156% */
+  /* Gray 1 */
+  color: #333333;
+}
+
+.cantidades {
+  /* Cheesecake */
+  display: block;
+  width: 287px;
+  height: 48px;
+  margin-top: 25px;
+  font-family: Playfair Display;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 42px;
+  /* Gray 1 */
+  color: #333333;
+}
+
+.intructions {
+  width: 45%;
+}
+
+.subintructions {
+  /* Instructions */
+  margin-bottom: 20px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  /* Gray 1 */
+  color: #333333;
+}
+
+.icons {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: #F2994A;
+  border-radius: 6px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.intruction p {
+  margin-left: 40px;
+  margin-top: -40px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #000000;
+}
+
+.enlace {
+  width: 500px;
+  height: 24px;
+  left: 236px;
+  top: 2828px;
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+  /* Gray 4 */
+  color: #BDBDBD;
+  text-decoration: none;
+}
+
+.enlace a {
+  text-decoration: none;
+}
+
+footer {
+  display: block;
+  margin: 0px auto;
+  margin-top: 70px;
+  margin-bottom: 10px;
+  width: 320px;
+  height: 17px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+}
+
+@media screen and (max-width: 760px) {
+  .container {
+    width: 100%;
+  }
+  .titulo {
+    position: absolute;
+    width: 323px;
+    height: 29px;
+    left: 11px;
+    top: 32px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .descripcion {
+    width: 900px;
+    height: 215px;
+  }
+  .descripcion p {
+    position: absolute;
+    width: 320px;
+    height: 88px;
+    left: 36px;
+    top: 73px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .descripcion img {
+    /* Group 40 */
+    position: absolute;
+    width: 13px;
+    height: 8px;
+    left: 11px;
+    top: 76px;
+  }
+  .datos {
+    display: block;
+    left: 0px;
+    top: 335px;
+    background: transparent;
+    box-shadow: none;
+    height: 331px;
+  }
+  .local {
+    /* Vector */
+    left: 11%;
+    right: 8%;
+    top: 15%;
+    bottom: 8%;
+    /* Orange */
+    color: #F2994A;
+  }
+  .yields {
+    /* Yields */
+    width: 38px;
+    height: 12px;
+    left: 52px;
+    top: 48px;
+    font-size: 8px;
+    line-height: 10px;
+  }
+  .servi {
+    /* 12 servings */
+    position: absolute;
+    width: 77px;
+    height: 17px;
+    left: 52px;
+    top: 58px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .schedu {
+    /* Vector */
+    position: absolute;
+    left: 11%;
+    right: 8%;
+    top: 35%;
+    bottom: 8%;
+    /* Gray 2 */
+    color: #4F4F4F;
+  }
+  .prep {
+    /* Prep TIme */
+    position: absolute;
+    width: 58px;
+    height: 12px;
+    left: 52px;
+    top: 116px;
+    font-size: 8px;
+    line-height: 10px;
+  }
+  .minutes {
+    /* 45 minutes */
+    position: absolute;
+    width: 80px;
+    height: 17px;
+    left: 52px;
+    top: 125px;
+    font-size: 8px;
+    line-height: 10px;
+  }
+  .schedutwo {
+    /* Vector */
+    left: 70%;
+    right: 8%;
+    top: 35%;
+    bottom: 8%;
+    /* Gray 2 */
+    color: #4F4F4F;
+  }
+  .cook {
+    /* Cook Time */
+    position: absolute;
+    width: 61px;
+    height: 12px;
+    left: 180px;
+    top: 116px;
+    font-size: 8px;
+    line-height: 10px;
+  }
+  .hour {
+    /* 1 hour */
+    position: absolute;
+    width: 43px;
+    height: 17px;
+    left: 180px;
+    top: 126px;
+    font-size: 8px;
+    line-height: 10px;
+  }
+  .scheduthree {
+    /* Vector */
+    left: 125%;
+    right: 8%;
+    top: 35%;
+    bottom: 8%;
+    /* Gray 2 */
+    color: #4F4F4F;
+  }
+  .total {
+    /* Total Time */
+    position: absolute;
+    width: 63px;
+    height: 12px;
+    left: 298px;
+    top: 116px;
+    font-size: 8px;
+    line-height: 10px;
+  }
+  .time_total {
+    /* 7,75 hours */
+    position: absolute;
+    width: 72px;
+    height: 17px;
+    left: 298px;
+    top: 126px;
+    font-size: 8px;
+    line-height: 10px;
+  }
+  .ingredients {
+    width: 100%;
+    margin-top: 140px;
+  }
+  .ingredients h2 {
+    /* Ingredients */
+    width: 96px;
+    height: 24px;
+    left: 12px;
+    top: 502px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .subtitulo {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .intructions {
+    width: 100%;
+  }
+  .enlace {
+    font-size: 12px;
+    text-decoration: none;
+  }
+  .enlace a {
+    text-decoration: none;
+  }
+  footer {
+    display: block;
+    margin: 0px auto;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    width: 320px;
+    height: 17px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+  }
+}
